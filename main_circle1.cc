@@ -15,6 +15,8 @@ int main()
   ColorFilledCircle c3(100,300,10,0,255,0); //Which Constructors runs?
   ColorFilledCircle* cfc_ptr;
 
+  int ijk = 17000;
+
   //Create object dynamically
   cfc_ptr = new ColorFilledCircle();
 
@@ -23,3 +25,4 @@ int main()
 
   return 0;
 }
+
